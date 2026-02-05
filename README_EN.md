@@ -13,6 +13,67 @@ This repository consists of 4 main projects for implementing Responsible AI:
 3. **Responsible AI Guidelines** - Role-based Guidelines and Checklists
 4. **Responsible AI Policy** - Policy Framework and Templates
 
+## 🚀 Differentiation Features
+
+> We have developed **10 exclusive features** compared to competitors (Fairlearn, AIF360, SHAP, MS RAI Toolbox)!
+
+| Feature | Description | Status |
+|---------|-------------|:------:|
+| **LLM Auto Report** | Natural language AI ethics reports that non-technical users can understand | ✅ Implemented |
+| **AI Red Team Automation** | Automatic discovery and testing of AI system vulnerabilities | ✅ Implemented |
+| **Governance as Code** | YAML-based policy definition and GitOps-style management | ✅ Implemented |
+| **AI Agent Monitoring** | Real-time behavior tracking for LangChain/AutoGPT AI Agents | ✅ Implemented |
+| **Carbon Footprint Tracking** | AI model environmental impact measurement and ESG reporting | ✅ Implemented |
+| **Global Regulation Mapping** | Multi-country/industry AI regulation mapping and gap analysis | ✅ Implemented |
+| **Multimodal Validation** | Image/audio/video generative AI ethics validation | ✅ Implemented |
+| **AI Incident Simulation** | Scenario-based risk assessment and response planning | ✅ Implemented |
+| **Federated Learning RAI** | Federated Learning environment specialized validation | 📋 Planned |
+| **Ethics Education Platform** | Gamified AI ethics learning and certification | 📋 Planned |
+
+📖 **Details**: [Differentiation Ideas Document](docs/DIFFERENTIATION_IDEAS.md) | [Roadmap](docs/ROADMAP.md)
+
+### 📁 Differentiation Feature Module Structure
+
+```
+responsible_ai_automation/src/
+├── llm_reporter/          # LLM-based Auto Report Generation
+│   ├── report_generator.py   # Report generation engine
+│   ├── templates.py          # Audience-specific templates
+│   ├── visualizer.py         # Visualization tools
+│   └── explainer.py          # Metric explainer
+├── red_team/              # AI Red Team Automation
+│   ├── red_team.py           # Red Team orchestrator
+│   ├── attacks.py            # Attack testers
+│   └── payloads.py           # Payload library
+├── governance/            # Governance as Code
+│   ├── policy.py             # Policy definition
+│   ├── validator.py          # Policy validator
+│   ├── enforcement.py        # Policy enforcement
+│   └── templates.py          # Industry templates
+├── agent_monitor/         # AI Agent Behavior Monitoring
+│   ├── monitor.py            # Monitoring core
+│   ├── anomaly.py            # Anomaly detection
+│   ├── circuit_breaker.py    # Circuit breaker
+│   └── logging.py            # Action logging
+├── carbon_tracker/        # Carbon Footprint Tracking
+│   ├── tracker.py            # Energy tracker
+│   ├── calculator.py         # Emissions calculator
+│   └── reporter.py           # ESG reporter
+├── regulation/            # Global Regulation Mapping
+│   ├── mapper.py             # Regulation mapping system
+│   ├── database.py           # Regulation database
+│   └── analyzer.py           # Gap analyzer
+├── multimodal/            # Multimodal Fairness Validation
+│   ├── validator.py          # Fairness validator
+│   ├── face_bias.py          # Facial recognition bias
+│   ├── audio_bias.py         # Speech recognition bias
+│   └── cross_modal.py        # Cross-modal analysis
+└── incident_simulation/   # AI Incident Simulation
+    ├── simulator.py          # Incident simulator
+    ├── scenarios.py          # Scenario definitions
+    └── response.py           # Response evaluator
+```
+
 ## 🎯 Project Structure
 
 ```
@@ -363,5 +424,18 @@ These tools help automatically evaluate and optimize Responsible AI principles, 
 
 ---
 
-**Last Updated**: 2026-01-07
+**Last Updated**: 2026-02-05
+
+### 🆕 Differentiation Feature Modules Added (v0.2.0)
+
+8 differentiation feature modules have been added to `responsible_ai_automation/src/`:
+
+1. **llm_reporter** - LLM-based natural language report generation (GPT-4, Gemini support)
+2. **red_team** - AI vulnerability auto-testing (Prompt Injection, Jailbreak, etc.)
+3. **governance** - Governance as Code (YAML policies, CI/CD integration)
+4. **agent_monitor** - AI Agent behavior tracking and Circuit Breaker
+5. **carbon_tracker** - Energy consumption measurement and ESG reports (GRI, TCFD formats)
+6. **regulation** - EU AI Act, Korea AI Basic Law, and other global regulation mapping
+7. **multimodal** - Facial recognition and speech recognition bias testing
+8. **incident_simulation** - Model drift and adversarial attack simulation
 
