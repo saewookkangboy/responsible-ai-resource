@@ -377,6 +377,21 @@ This software was developed with assistance from Cursor AI
    - 대용량 데이터 처리 최적화
    - 메모리 효율적인 스트리밍 평가 지원
 
+**Last Updated**: 2026-02-05
+
+### 🆕 차별화 기능 모듈 추가 (v0.2.0)
+
+8개의 차별화 기능 모듈이 `responsible_ai_automation/src/`에 추가되었습니다:
+
+1. **llm_reporter** - LLM 기반 자연어 리포트 생성 (GPT-4, Gemini 지원)
+2. **red_team** - AI 취약점 자동 테스트 (Prompt Injection, Jailbreak 등)
+3. **governance** - Governance as Code (YAML 정책, CI/CD 통합)
+4. **agent_monitor** - AI Agent 행동 추적 및 Circuit Breaker
+5. **carbon_tracker** - 에너지 소비 측정 및 ESG 리포트 (GRI, TCFD 형식)
+6. **regulation** - EU AI Act, 한국 AI 기본법 등 글로벌 규제 매핑
+7. **multimodal** - 얼굴 인식, 음성 인식 편향 테스트
+8. **incident_simulation** - 모델 드리프트, 적대적 공격 시뮬레이션
+
 ---
 
 **Last Updated**: 2026-01-07
