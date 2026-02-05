@@ -30,6 +30,25 @@ This open source project was written and structured based on Cursor AI.
 3. **Responsible AI Guidelines** - 역할별 가이드라인 및 체크리스트
 4. **Responsible AI Policy** - 정책 프레임워크 및 템플릿
 
+## 🚀 차별화 기능 (Coming Soon)
+
+> 경쟁사(Fairlearn, AIF360, SHAP, MS RAI Toolbox) 대비 **독점 기능 10개**를 개발 중입니다!
+
+| 기능 | 설명 | 상태 |
+|------|------|:----:|
+| **LLM 자동 리포트** | 비기술자도 이해할 수 있는 자연어 기반 AI 윤리 리포트 | 📋 계획 |
+| **AI Red Team 자동화** | AI 시스템 취약점 자동 발견 및 테스트 | 📋 계획 |
+| **Governance as Code** | YAML 기반 정책 정의 및 GitOps 스타일 관리 | 📋 계획 |
+| **AI Agent 모니터링** | LangChain/AutoGPT 등 AI Agent 실시간 행동 추적 | 📋 계획 |
+| **탄소 발자국 추적** | AI 모델의 환경 영향 측정 및 ESG 리포트 | 📋 계획 |
+| **글로벌 규제 매핑** | 다국가/산업별 AI 규제 자동 매핑 및 갭 분석 | 📋 계획 |
+| **멀티모달 검증** | 이미지/오디오/비디오 생성 AI 윤리 검증 | 📋 계획 |
+| **AI 사고 시뮬레이션** | 시나리오 기반 위험 평가 및 대응 계획 | 📋 계획 |
+| **연합 학습 RAI** | Federated Learning 환경 특화 검증 | 📋 계획 |
+| **윤리 교육 플랫폼** | 게임화된 AI 윤리 학습 및 인증 | 📋 계획 |
+
+📖 **상세 내용**: [차별화 아이디어 문서](docs/DIFFERENTIATION_IDEAS.md) | [로드맵](docs/ROADMAP.md)
+
 ## 🎯 프로젝트 구조
 
 ```
@@ -379,4 +398,4 @@ This software was developed with assistance from Cursor AI
 
 ---
 
-**Last Updated**: 2026-01-07
+**Last Updated**: 2026-02-05
