@@ -30,6 +30,67 @@ This open source project was written and structured based on Cursor AI.
 3. **Responsible AI Guidelines** - 역할별 가이드라인 및 체크리스트
 4. **Responsible AI Policy** - 정책 프레임워크 및 템플릿
 
+## 🚀 차별화 기능
+
+> 경쟁사(Fairlearn, AIF360, SHAP, MS RAI Toolbox) 대비 **독점 기능 10개**를 개발했습니다!
+
+| 기능 | 설명 | 상태 |
+|------|------|:----:|
+| **LLM 자동 리포트** | 비기술자도 이해할 수 있는 자연어 기반 AI 윤리 리포트 | ✅ 구현 완료 |
+| **AI Red Team 자동화** | AI 시스템 취약점 자동 발견 및 테스트 | ✅ 구현 완료 |
+| **Governance as Code** | YAML 기반 정책 정의 및 GitOps 스타일 관리 | ✅ 구현 완료 |
+| **AI Agent 모니터링** | LangChain/AutoGPT 등 AI Agent 실시간 행동 추적 | ✅ 구현 완료 |
+| **탄소 발자국 추적** | AI 모델의 환경 영향 측정 및 ESG 리포트 | ✅ 구현 완료 |
+| **글로벌 규제 매핑** | 다국가/산업별 AI 규제 자동 매핑 및 갭 분석 | ✅ 구현 완료 |
+| **멀티모달 검증** | 이미지/오디오/비디오 생성 AI 윤리 검증 | ✅ 구현 완료 |
+| **AI 사고 시뮬레이션** | 시나리오 기반 위험 평가 및 대응 계획 | ✅ 구현 완료 |
+| **연합 학습 RAI** | Federated Learning 환경 특화 검증 | 📋 계획 |
+| **윤리 교육 플랫폼** | 게임화된 AI 윤리 학습 및 인증 | 📋 계획 |
+
+📖 **상세 내용**: [차별화 아이디어 문서](docs/DIFFERENTIATION_IDEAS.md) | [로드맵](docs/ROADMAP.md)
+
+### 📁 차별화 기능 모듈 구조
+
+```
+responsible_ai_automation/src/
+├── llm_reporter/          # LLM 기반 자동 리포트 생성
+│   ├── report_generator.py   # 리포트 생성 엔진
+│   ├── templates.py          # 청중별 템플릿
+│   ├── visualizer.py         # 시각화 도구
+│   └── explainer.py          # 메트릭 설명기
+├── red_team/              # AI Red Team 자동화
+│   ├── red_team.py           # Red Team 오케스트레이터
+│   ├── attacks.py            # 공격 테스터
+│   └── payloads.py           # 페이로드 라이브러리
+├── governance/            # Governance as Code
+│   ├── policy.py             # 정책 정의
+│   ├── validator.py          # 정책 검증기
+│   ├── enforcement.py        # 정책 적용
+│   └── templates.py          # 산업별 템플릿
+├── agent_monitor/         # AI Agent 행동 모니터링
+│   ├── monitor.py            # 모니터링 코어
+│   ├── anomaly.py            # 이상 탐지
+│   ├── circuit_breaker.py    # 서킷 브레이커
+│   └── logging.py            # 행동 로깅
+├── carbon_tracker/        # 탄소 발자국 추적
+│   ├── tracker.py            # 에너지 추적기
+│   ├── calculator.py         # 배출량 계산기
+│   └── reporter.py           # ESG 리포트
+├── regulation/            # 글로벌 규제 매핑
+│   ├── mapper.py             # 규제 매핑 시스템
+│   ├── database.py           # 규제 데이터베이스
+│   └── analyzer.py           # 갭 분석기
+├── multimodal/            # 멀티모달 공정성 검증
+│   ├── validator.py          # 공정성 검증기
+│   ├── face_bias.py          # 얼굴 인식 편향
+│   ├── audio_bias.py         # 음성 인식 편향
+│   └── cross_modal.py        # 교차 모달 분석
+└── incident_simulation/   # AI 사고 시뮬레이션
+    ├── simulator.py          # 사고 시뮬레이터
+    ├── scenarios.py          # 시나리오 정의
+    └── response.py           # 대응 평가기
+```
+
 ## 🎯 프로젝트 구조
 
 ```
